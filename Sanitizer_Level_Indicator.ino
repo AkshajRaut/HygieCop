@@ -50,7 +50,7 @@ void sendData()
   { 
     lcd.clear();
     lcd.print(0,0, "Level: Empty"); 
-    Blynk.notify("Empty");
+    Blynk.notify("Empty"); //Sends notification after container is empty
   }
 }
 
