@@ -54,6 +54,7 @@ void sendData()
   }
 }
 
+//To notify for sanitizing hands every 30 minutes
 void notify()
 {
   Blynk.notify("Sanitize Hands");
